@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #a4a3a3;
+    color: #000000;
+    padding: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.browser {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.browser div {
+    width: 400px;
+    height: 300px;
+    border: 3px solid #f10000;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #e6e6e6;
+    box-shadow:  0 px rgb(255, 0, 0);
+    margin-top: 150px;
+    border-radius: 15px;
+    animation: goamove 5s 1;
+  animation-timing-function: linear;
+  animation: my-animation 3s infinite;
+}
+@keyframes my-animation {
+  20% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(0);
+  }
+}
+
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#div1 {
+    color: rgb(0, 0, 0);
+}
+
+#div1 p {
+     margin-left: 95px;
+}
+
+
+#div1 button {
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 60px;
+    margin-left: 135px;
+    margin-top: 40px;
+}
+
+#div1 a {
+    text-decoration: none;
+    color: rgb(12, 134, 0);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#div1 a:hover {
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+#div2 {
+    color: rgb(0, 0, 0);
+}
+
+#div2 p {
+    margin-left: 85px;
+}
+
+#div2 button {
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 60px;
+    margin-left: 145px;
+    margin-top: 30px;
+}
+
+#div2 a {
+    text-decoration: none;
+    color: rgb(12, 134, 0);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#div2  a:hover {
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+#div3 {
+    color: rgb(0, 0, 0);
+}
+
+#div3 p {
+    margin-left: 110px;
+}
+
+#div3 button {
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 60px;
+    margin-left: 145px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+#div3 a {
+    text-decoration: none;
+    color: rgb(12, 134, 0);
+    cursor: pointer;
+}
+
+#div3  a:hover {
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+}

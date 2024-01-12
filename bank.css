@@ -1,0 +1,39 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    margin-top: 230px;
+    
+}
+
+button {
+    background-color: #067e0a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2e2e2e;
+    transition: 0.4s;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
